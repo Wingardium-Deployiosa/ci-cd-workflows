@@ -4,7 +4,7 @@ on:
     branches:
       - main # - main   means array of main, 
 jobs:
-  build:
+  Validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
