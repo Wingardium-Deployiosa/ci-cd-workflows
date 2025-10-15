@@ -12,10 +12,3 @@ jobs:
       - name: Validate HTML file
         run:
             if [ -f "index.html" ]; then echo "File exists"; else echo "File does not exist"; exit 1; fi  
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
-      - name: Validate HTML file
-        uses: tj-actions/validate-html@v1.1.0
-        with:
-          file: 'index.html'
